@@ -1,4 +1,4 @@
-body {background-color: #000;}
+body {background-color: #000; margin: 0px;}
 footer {color: #fff;}
 h1, h2, h3 {font-family: 'Monda', sans-serif;}
 p {font-family: 'Roboto', sans-serif;}
@@ -7,13 +7,17 @@ a {font-family: 'Roboto', sans-serif; text-decoration: none;}
 .slide {
 	position: relative;
 	width: 100vw;
-	height: 550px;
-	overflow-x: hidden;
+	height: 700px;
+	overflow: hidden;
 }
 
-.text {
-	white-space: pre-wrap;
-	
+.text {white-space: pre-wrap;}
+
+.resize {
+	height: auto;
+	width: 685px;
+	padding-top: 20px;
+	box-shadow: 2px 2px 5px #888;
 }
 
 #button {
@@ -32,12 +36,19 @@ a {font-family: 'Roboto', sans-serif; text-decoration: none;}
 	color: #000;
 }
 
+#black {
+	height: 45px;
+	background-color: #000;
+}
+
 #s1 {
+	height: 550px;
 	background-color: #fff;
 	z-index: 1;
 	text-align: center;
-	margin-top: 40px;
 }
+
+#s2, #s3, #s4 {font-size: 24px; text-align: center;}
 
 #s1 h1 {
 	font-size: 150px;
