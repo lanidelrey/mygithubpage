@@ -1,21 +1,12 @@
 body {background-color: #000;}
-<<<<<<< HEAD
-
-h1, h2, h3 {font-family: 'Monda', sans-serif;}
-p {font-family: 'Roboto', sans-serif;}
-=======
 footer {color: #fff;}
 h1, h2, h3 {font-family: 'Monda', sans-serif;}
 p {font-family: 'Roboto', sans-serif;}
 a {font-family: 'Roboto', sans-serif; text-decoration: none;}
->>>>>>> master
 
 .slide {
 	position: relative;
 	width: 100vw;
-<<<<<<< HEAD
-	height: 500px;
-=======
 	height: 550px;
 	overflow-x: hidden;
 }
@@ -39,18 +30,12 @@ a {font-family: 'Roboto', sans-serif; text-decoration: none;}
 	font-family: 'Francois One';
 	font-size: 18px;
 	color: #000;
->>>>>>> master
 }
 
 #s1 {
 	background-color: #fff;
 	z-index: 1;
 	text-align: center;
-<<<<<<< HEAD
-}
-
-#s1 h1 {font-size: 120px;}
-=======
 	margin-top: 40px;
 }
 
@@ -59,7 +44,6 @@ a {font-family: 'Roboto', sans-serif; text-decoration: none;}
 	margin-top: 25px;
 	margin-bottom: 0px;
 }
->>>>>>> master
 
 #s2 {
 	background-color: #D9D6C4;
